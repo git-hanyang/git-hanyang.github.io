@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- <link rel="stylesheet" href="/css/timeline2.css"> -->
+    <link rel="stylesheet" href="./css/timeline1.css">
+    <link rel="stylesheet" href="./css/typing.css">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&family=Xanh+Mono&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Xanh+Mono&display=swap" rel="stylesheet"> 
+
+    <script src="index.js" defer></script>
+
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div class="header">
+        <div class="wrapper">
+            <!-- <div class="static-txt"></div> -->
+                <ul class="dynamic-txt"> 
+                   <li><span class="portfolio">My Portfolio</span></li> 
+                </ul>          
+        </div>
+    </div>
+
+    <section class="container">
+
+
+        <div class="left">
+            <div id="center-txt">
+                <br><br><img src="http://style.anu.edu.au/_anu/4/images/placeholders/person_8x10.png">
+                
+                <h4 class="name">Han Yang</h4>
+                
+                <h6>- Web Developer -</h6>
+            </div>
+        <hr>
+            <div class="bio">
+                <h4 id="center-txt">Personal info</h4>
+                
+                <h6>Skills</h6>
+                <ul>
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>NodeJS & ExpressJs</li>
+                    <li>MongoDB & PostgreSQL</li>
+                </ul>
+                
+                <h6>Character</h6>
+                <ul>
+                    <li>A passionate person</li>
+                    <li>with positive attitude</li>
+                    <li>enjoy learning</li>
+                    <li>loves creativity</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="contact">
+                <h4 id="center-txt">Contact Me</h4>
+                <p><i class="bi bi-whatsapp"></i> 016-640 7273 </p>
+                <p><i class="bi bi-envelope-fill"></i> tanhanyang@hotmail.com</p>
+                <p><i class="bi bi-github"></i> <a class="nav-link" href="https://github.com/git-hanyang"> git-hanyang</a></p>
+                <p><i class="bi bi-linkedin"></i><a class="nav-link" href="https://www.linkedin.com/in/han-yang-2a2879256/"> han-yang-2a2879256</a></p>
+            </div>
+        </div>
+
+        <div class="right">
+            
+            <div class="about-me">
+                <h5><i class="bi bi-book"></i> About Me</h5>
+                <p>Hi, I'm a software engineer. I love experimenting stuff and trying new things out.
+                    I'm highly analytical and motivated at solving programming problems. 
+                    Here I am looking for a <span style="font-weight: 600;"> front-end developer job</span>. 
+                    My current motivation is to master every necessary skills required in this 
+                    field. <span class="date"> #17.11.2022</span>
+                </p>
+            </div>
+
+            <div class="projects-container">
+                <h5>My Projects</h5>
+                <div class="myProjects">
+                    <div class="card" style="width: 100%;">
+                        <img src="./img/image1.jpg" class="card-img-top" alt="tictactoe" id="img">
+                        <div class="card-body">
+                            <h5 class="card-title"> TicTacToe </h5>
+                                
+                                <p class="card-text"> #javascript</p>
+                                <a href="https://t1ctact0e.herokuapp.com/" class="btn btn-outline-success" id="button">Test</a>
+                        </div> 
+                    </div> 
+
+                    <div class="card" style="width: 100%;">
+                        <img src="./img/image2.jpg" class="card-img-top" alt="food menu" id="img">
+                        <div class="card-body">
+                            <h5 class="card-title"> Food Menu </h5>
+                            <p class="card-text"> 
+                                #javascript <br>
+                                #CRUD <br>
+                                #mvc <br>
+                                #expressJS <br>
+                            </p>  
+                            <a href="https://f00dmenu.herokuapp.com/food" class="btn btn-outline-success" id="button">Test</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 100%;">
+                        <img src="./img/image3.jpg" class="card-img-top" alt="travelApp" id="img">
+                        <div class="card-body">
+                            <h5 class="card-title"> Travel App </h5>
+                            <p class="card-text">
+                                #CRUD <br>
+                                #expressJS <br>
+                                #react <br>
+                                #API <br>
+                            </p> 
+                            <a href="http://localhost:3000/" class="btn btn-outline-success" id="button">Test</a>
+                        </div>     
+                    </div>   
+                </div>
+            </div>
+            
+            <div class="myTimeline"><h5><i class="bi bi-calendar4"></i> My Journey</h5>
+                <div class="timeline">
+
+                        <div class="timeline-component" id="a">
+                            <div class="timeline-date timeline-date-right">Now</div> 
+                        </div>
+            
+                        <div class="timeline-middle">
+                            <div class="timeline-point" id="b"></div>
+                        </div> 
+                        
+                        <div class="timeline-component timeline-component-bg">
+                            <h2 class="timeline-title">Looking for new job</h2>
+                            <p class="timeline-para">Can't wait to start my new career</p>
+                        </div>
+        
+                    <div class="timeline-component timeline-component-bg timeline-component-bottom">
+                        
+                        <h2 class="timeline-title">Graduated from <a class="nav-link" href="https://www.generalassembly.my/"> GA Malaysia</a></h2>
+                        
+                        <p class="timeline-para">Joined a 3 months course of software engineering as the first step in making my career change</p>
+                    </div>
+                    <div class="timeline-middle">
+                        <div class="timeline-point"></div>
+                        <div class="timeline-point timeline-point-bottom"></div>
+                    </div> 
+                    <div class="timeline-component timeline-component-bottom">
+                        <div class="timeline-date ">22.08.2022 - 17.11.2022</div> 
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+</body>
+</html>

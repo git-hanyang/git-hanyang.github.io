@@ -1,0 +1,36 @@
+.wrapper .dynamic-txt{
+    font-size: 40px;
+}
+
+.wrapper .dynamic-txt li{
+    position:relative;
+    font-weight: 500;
+    list-style: none;
+    /* margin-left: -20px; */
+    /* min-width: 495px; */
+    align-items: center;
+    justify-content: center;
+}
+
+.dynamic-txt li::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+    border-left: 3px solid #0D544F;
+    left:0;
+    animation: typing 4.5s steps(15) infinite, blink 0.6s infinite;
+    background-color: #EAE4B2;
+}
+
+@keyframes blink{
+    from{border-color: transparent}
+    to{border-color: #0D544F}
+}
+@keyframes typing{
+    40%,
+    60%{
+        left: calc(100% + 0.9em);
+    }
+}

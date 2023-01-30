@@ -1,0 +1,230 @@
+
+@media (max-width: 550px )and (min-width:100px) {
+    .wrapper .dynamic-txt {
+        font-size: 20px;
+        min-width: 249px;
+        margin: 0.5em;
+        
+        overflow: hidden;
+        /* to prevent the page from keep going up automatically */
+    }
+   .wrapper{
+    margin-top: 0.5em;
+   }
+
+    @keyframes typing{
+        40%,
+        60%{
+            left: calc(100% );
+        }};
+
+    .date{
+        padding-top: 13px;
+    }
+    .left, .right {
+        margin: 0 auto;
+    }
+    .left{
+        border-radius: 37px 37px 8px 8px;
+        height: auto;
+        width: 100%;
+    }
+    
+    .about-me{
+        margin: 0 auto;
+        margin-top: 1em;
+        border-radius: 8px;
+        /* min-width: 290px; */
+    }
+    .myTimeline{
+        margin: 0 auto;
+        min-width: 249px;
+        /* padding-bottom: -1em; */
+        border-radius: 8px 8px 37px 37px;
+        margin-bottom: 1em;
+    }
+    .projects-container{
+        margin: 1em 0 1em 0;
+        min-width: 100%;
+    }
+    .projects-container h5{
+        margin-bottom: 1em;
+    }
+    .card{
+        margin: 0 auto;
+        /* position: relative; */
+        /* display: flex;
+        flex-direction: row; */
+        height: fit-content;
+        margin-bottom: 1em;
+        border-radius: 8px 8px 23px 23px;
+    }
+    .card p {
+        font-size: 0.8em;
+        min-height: auto;
+    }
+    .card img {
+        height: 100%;
+        z-index: 20;
+        min-width: 100%;
+        margin: 0;
+        /* margin: 0 auto; */
+        
+    }
+    .card-body{
+        z-index: 10;
+        position: relative;
+    
+    }
+    .card-title{
+        width: 150px;
+        margin: 0 auto;
+    }
+    .myProjects{
+        flex-direction: column;
+    }
+    .bio{
+        font-size: 0.9em;
+        padding: 0 1.2em 0 1.2em;
+    }
+}
+
+
+@media (max-width:1200px) and (min-width:768px){
+    .wrapper .dynamic-txt {
+        font-size: 2.1em;
+        min-width: 249px;
+        margin: 0.5em;
+        margin-top: -0.2em;
+        
+        overflow: hidden;
+        /* to prevent the page from keep going up automatically */
+    }
+    .left, .right{
+        flex: none;
+        margin: 0 auto;
+        /* float: none; */
+        border-radius: 0;
+        overflow: hidden;
+    }
+    
+    .left{
+        border-radius: 37px 37px 8px 8px;
+        height: auto;
+        width: 100%;
+    }
+    
+    .about-me{
+        border-radius: 8px;
+        font-size: 0.93em;
+    }
+    .myTimeline{
+        border-radius: 8px 8px 37px 37px;
+    }
+    .bio{
+        font-size: 0.9em;
+        padding: 0 2em 0 2em;
+    }
+    .contact{
+        padding: 0 2em 0 2em;
+        margin-bottom: 1.5em;
+    }
+    #center-txt{
+        font-size: 1.3em;
+    }
+    .name{
+        font-size: 1em;
+    }
+    .card{
+        border-radius: 8px 8px 28px 28px;
+    }
+    .card img{
+        height: 18vh;
+        width: 15vw;
+        max-width: 100%;
+        min-width: 100%;
+        margin: 0 auto;
+        background-size: cover;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .projects-container h5{
+        margin-bottom: 0.4em;
+    }
+}
+
+@media (max-width:767px) and (min-width:551px){
+    .wrapper .dynamic-txt {
+        font-size: 1.6em;
+        min-width: 249px;
+        margin: 0.3em;
+        
+        overflow: hidden;
+        /* to prevent the page from keep going up automatically */
+    }
+    .left{
+        margin: 0 auto;
+        border-radius: 33px 33px 8px 8px;
+        width: 93%;
+        height: auto;
+        font-size: 0.93em;
+    }
+    .right{
+        width: auto;
+    }
+    .center-txt{
+        font-size: 0.8em;
+    }
+    .about-me{
+        border-radius: 8px;
+        font-size: 0.93em;
+    }
+    .card{
+        margin: 0 auto;
+        /* position: relative; */
+        /* display: flex;
+        flex-direction: row; */
+        height: fit-content;
+        margin-bottom: 1em;
+        border-radius: 8px 8px 23px 23px;
+    }
+    .card p {
+        font-size: 0.8em;
+        min-height: auto;
+    }
+    .card img {
+        height: 100%;
+        z-index: 20;
+        min-width: 100%;
+        margin: 0;
+        /* margin: 0 auto; */
+        
+    }
+    .card-body{
+        z-index: 10;
+        position: relative;
+    
+    }
+    .card-title{
+        width: 150px;
+        margin: 0 auto;
+    }
+    .myProjects{
+        flex-direction: column;
+    }
+    .projects-container h5{
+        margin-bottom: 0.8em;
+    }
+    .bio{
+        font-size: 1em;
+    }
+    #center-txt{
+        font-size: 1.3em;
+    }
+    .name{
+        font-size: 1em;
+    }
+     .myTimeline{
+        border-radius: 8px 8px 37px 37px;
+    }
+}
